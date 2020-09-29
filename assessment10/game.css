@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#fff9c4; font-family:Verdana, Geneva, sans-serif; font-size:1em; }
+.container { text-align:center; margin:50px auto;width:40%;display:flex;flex-direction: row;flex-wrap: nowrap; justify-content: space-between; background-color: #fff9c4;}
+.text{ background:#CFF; width:250px; height:30px; font-size:1em; margin-top: 25px;}
+#formsubmit{ height:36px; width:115px; vertical-align: bottom; border-radius:5px; color:#fff; font-size: 1em; background:#1c8eff;}
+.b{ width: 100px; height: 100px;  border: 5px solid #bdbdbd; line-height:100px; border-radius:4px; }
+
+.placeholder {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+button { width: 180px; height: 40px; background: #1089bf; color: #fff; font-size: 1.2em; border-radius: 4px; }
+#goagain{ display:none; margin-top:25px;}

@@ -1,0 +1,7 @@
+body{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+.container{ border: solid #12529b 5px; width: 65%; margin:70px auto; padding: 0 80px 80px; background: lightyellow;}
+.float-tablel{ float:left; width: 47%;}
+.float-tabler{ float:right; width: 47%;}
+.table-headings{ text-align:center; font-size:1.3em;}
+.tables { width: 90%; max-width: 900px; overflow: auto;}
+th{ text-align:left; background: gold; color: #12529b;}

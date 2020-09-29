@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Addition Quiz</title>
+<link rel="stylesheet" href="quiz.css">
+<link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+<div class="nav">
+	<div class="nav-title">
+		<h1>Assessment Tasks</h1>
+	</div>
+
+	<div class="nav-menu">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			
+		</ul>
+	</div>
+</div>
+ <div class="container">         
+       
+         <h1>Addition <span> Quiz</span></h1>
+         
+         <div id="welldone"></div>
+        
+            <div id="showanwser" class="show-anwser"><span id="result"></span></div>
+         
+               <div class="box-col">
+                  <input type="text" id="number1" class="numbox yell"> <span class="plus">+</span> <input type="text" id="number2" class="numbox yell">
+               </div>            
+
+            <div class="box">
+               <input tpye="text" id="answer" class="numbox green" autofocus>
+            </div>
+                
+               <button class="button" id="submitted" onclick="addition()">Submit</button>
+               <button id="goagain" class="button" onClick="window.location.href=window.location.href">Play Again</button>
+         
+         </div>  
+  
+<script src="quiz.js"></script>
+</body>
+</html>

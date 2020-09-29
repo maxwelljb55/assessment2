@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#fff9c4; font-family:Verdana, Geneva, sans-serif; }
+.container { text-align:center; margin-top:20px;}
+.numbox{ width: 80px; margin:30px; text-align:center; height:55px; font-size:2em; border-radius:4px; }
+.yell{ background: #e1f5fe; }
+.green{ background: #9FC; }
+.button{ width:180px; height:40px; background:#1089bf; color:#fff; font-size:1.4em; border-radius:4px;}
+.button:hover{ color:yellow; }
+.plus{ font-size:2em; font-weight:bold;}
+.hearder{ margin:0;}
+#goagain{ display:none; margin: 25px auto 0;}

@@ -1,0 +1,108 @@
+/* CSS Document */
+body{ background: #fff9c4; font-family:Arial, Helvetica, sans-serif; margin:0; }
+.btn-container{ width:50%; margin:80px auto 0; }
+.container ul {list-style-type: none; display: flex; flex-wrap: wrap; height: inherit; padding-left: 0; text-align:center; line-height:160px; font-weight:bold; cursor:pointer; }
+.container ul li {  flex: 1 18%; border:solid 3px #ad3e3e;  }
+.btn1, .btn2, .btn3, .btn4, .btn5 { border-bottom:none !important;}
+.btn1, .btn6, .btn2, .btn7, .btn3, .btn8, .btn4, .btn9{ border-right:none !important;}
+.btn1 {background: #ffdfba; }
+.btn2 {background: #baffc9; }
+.btn3 {background: #bae1ff; }
+.btn4 {background: #67C7E2; }
+.btn5 {background: #D69E87; }
+.btn6 {background: #B5FFFC; }
+.btn7 {background: #AAAAFF; }
+.btn8 {background: #FF6F61; }
+.btn9 {background: #DFCFBE; }
+.btn10 {background:#fff59d; }
+.btn:hover { filter: brightness(90%); }
+.btn:active { filter: brightness(95%); }
+.container h1{text-align:center; padding-top:80px; margin-bottom: 0;}
+.container a { text-decoration:none; display:block; }
+
+/*NAVBAR STYLES START*/
+
+
+	 .nav{
+	 	background: #2196f3;
+	 	color: yellow !important;
+	 	text-decoration:none;
+	 	font-family: sans-serif;
+
+	 	display: flex;
+	 	flex-wrap:wrap;
+	 	align-items: center;
+	 }
+
+	 .nav-title{
+	 	width: 30%;
+	 	background: #485ff1;
+	 	padding: 16px 40px;
+	 	text-align: center;
+
+	 }
+
+	 .nav-menu{
+	 	width: 60%;
+	 }
+	  .nav-menu a{
+	 	color: yellow !important;
+	 	text-decoration:none;
+	 }
+	  .nav-menu a:hover{
+	 	color: #fff !important;
+	 	
+	 }
+
+	 .nav-menu ul{
+	 	display: flex;
+	 	justify-content: flex-end;
+	 }
+
+	 .nav-menu ul li{
+	 	padding: 10px 20px;
+	 	
+	 	font-size: 20px;
+	 	list-style-type: none;
+	 	cursor: pointer;
+	 }
+
+	 .nav-menu ul li:hover{
+	 	color: #fff;
+	 	font-weight: bold;
+	 }
+
+    /*style for responsive menu*/
+
+    @media screen and (max-width:1000px){
+    	.nav{
+    		height: auto;
+    	}
+    	.nav .nav-title{
+    		text-align: left;
+    		width: 100%;
+    	}
+
+    	.nav .nav-menu{
+    		width: 100%;
+    	}
+    	.nav .nav-menu ul{
+    		justify-content: space-around;
+    	}
+
+    	.nav .nav-menu ul li{
+    		width: 20%;
+    		padding: 10px 0px;
+    		text-align: center;
+    		font-size: 16px;
+    	}
+    }
+/*NAVBAR STYLES END*/
+
+
+@media only screen and (min-width: 0px) and (max-width: 1199px)  {
+	
+	
+	.btn-container{ width:90%; }
+	
+}
